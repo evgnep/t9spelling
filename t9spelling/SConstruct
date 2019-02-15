@@ -1,0 +1,4 @@
+Program("t9spelling", 
+  ['main.cpp', 'task.cpp', 't9spelling.cpp'], 
+  CXXFLAGS=['/std:c++latest']
+  )

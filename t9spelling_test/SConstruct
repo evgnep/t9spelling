@@ -1,0 +1,10 @@
+Program("t9spelling_test", 
+  ['test.cpp', 
+   'gtest/src/gtest_main.cc',
+   'gtest/src/gtest-all.cc',
+   '../t9spelling/task.cpp',
+   '../t9spelling/t9spelling.cpp',
+   ], 
+  CXXFLAGS=['/std:c++latest'],
+  CPPPATH=['gtest'],
+  )
